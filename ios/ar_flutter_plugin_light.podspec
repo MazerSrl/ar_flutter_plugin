@@ -3,11 +3,11 @@
 # Run `pod lib lint ar_flutter_plugin.podspec` to validate before publishing.
 #
 Pod::Spec.new do |s|
-  s.name             = 'ar_flutter_plugin'
+  s.name             = 'ar_flutter_plugin_light'
   s.version          = '0.6.2'
   s.summary          = 'A Flutter plugin for shared AR experiences.'
   s.description      = <<-DESC
-A Flutter plugin for shared AR experiences supporting Android and iOS.
+A Flutter plugin for shared AR experiences supporting iOS.
                        DESC
   s.homepage         = 'https://lars.carius.io'
   s.license          = { :file => '../LICENSE' }

@@ -1,9 +1,9 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:ar_flutter_plugin/ar_flutter_plugin.dart';
+import 'package:ar_flutter_plugin_light/ar_flutter_plugin_light.dart';
 
 void main() {
-  const MethodChannel channel = MethodChannel('ar_flutter_plugin');
+  const MethodChannel channel = MethodChannel('ar_flutter_plugin_light');
 
   TestWidgetsFlutterBinding.ensureInitialized();
 
@@ -18,6 +18,6 @@ void main() {
   });
 
   test('getPlatformVersion', () async {
-    expect(await ArFlutterPlugin.platformVersion, '42');
+    expect(await ArFlutterPluginLight.platformVersion, '42');
   });
 }

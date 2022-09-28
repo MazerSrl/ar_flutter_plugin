@@ -1,14 +1,14 @@
-import 'package:ar_flutter_plugin_example/examples/externalmodelmanagementexample.dart';
-import 'package:ar_flutter_plugin_example/examples/objectsonplanesexample.dart';
+import 'package:ar_flutter_plugin_light_example/examples/externalmodelmanagementexample.dart';
+import 'package:ar_flutter_plugin_light_example/examples/objectsonplanesexample.dart';
 import 'package:flutter/material.dart';
 import 'dart:async';
 
 import 'package:flutter/services.dart';
-import 'package:ar_flutter_plugin/ar_flutter_plugin.dart';
+import 'package:ar_flutter_plugin_light/ar_flutter_plugin_light.dart';
 
-import 'package:ar_flutter_plugin_example/examples/cloudanchorexample.dart';
-import 'package:ar_flutter_plugin_example/examples/localandwebobjectsexample.dart';
-import 'package:ar_flutter_plugin_example/examples/debugoptionsexample.dart';
+import 'package:ar_flutter_plugin_light_example/examples/cloudanchorexample.dart';
+import 'package:ar_flutter_plugin_light_example/examples/localandwebobjectsexample.dart';
+import 'package:ar_flutter_plugin_light_example/examples/debugoptionsexample.dart';
 
 import 'examples/objectgesturesexample.dart';
 import 'examples/screenshotexample.dart';
@@ -38,7 +38,7 @@ class _MyAppState extends State<MyApp> {
     String platformVersion;
     // Platform messages may fail, so we use a try/catch PlatformException.
     try {
-      platformVersion = await ArFlutterPlugin.platformVersion;
+      platformVersion = await ArFlutterPluginLight.platformVersion;
     } on PlatformException {
       platformVersion = 'Failed to get platform version.';
     }

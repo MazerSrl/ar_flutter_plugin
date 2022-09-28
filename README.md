@@ -28,7 +28,7 @@ dependencies:
 Add this to your code:
 
 ```dart
-import 'package:ar_flutter_plugin/ar_flutter_plugin.dart';
+import 'package:ar_flutter_plugin/ar_flutter_plugin_light.dart';
 ```
 
 If you have problems with permissions on iOS (e.g. with the camera view not showing up even though camera access is allowed), add this to the ```podfile``` of your app's ```ios``` directory:

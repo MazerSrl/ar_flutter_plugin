@@ -747,7 +747,7 @@ class IosARView: NSObject, FlutterPlatformView, ARSCNViewDelegate, UIGestureReco
                             self.parent.sceneView.session.add(anchor: newAnchor)
                             self.parent.anchorCollection[anchorName] = newAnchor
                         } else {
-                            self.parent.sessionManagerChannel.invokeMethod("onError", arguments: ["Error while registering downloaded anchor at the AR Flutter plugin"])
+                            self.parent.sessionManagerChannel.invokeMethod("onError", arguments: ["Error while registering downloaded anchor at the AR Flutter plugin Light"])
                         }
 
                     })
